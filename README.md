@@ -2,7 +2,7 @@
 Core do sistema
 
 ##Licensa
-![GPL](http://www.gnu.org/graphics/gplv3-127x51.png) C Erik Perin
+![GPL](http://www.gnu.org/graphics/gplv3-88x31.png)  Erik Perin
 
 ![Feito com Amor](http://forthebadge.com/images/badges/built-with-love.svg)
 ![Usa HTML5](http://forthebadge.com/images/badges/uses-html.svg)
