@@ -1,5 +1,5 @@
 # Core do Vialerta
-Core do sistema
+O Core do sistema é que mantem o projeto do Vialerta funcionando, através de colaboração entre usuários e desenvolvedores
 
 ##Licensa
 ![GPL](http://www.gnu.org/graphics/gplv3-88x31.png)  Equipe do Vialerta - 2012 - 2016
