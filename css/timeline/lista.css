@@ -1,0 +1,33 @@
+.timeline {
+    margin: 50px 10px;
+}
+.avatar-usuario {
+    float: left;
+    max-width: 24px;
+}
+.nome-usuario {
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.hora-post {
+    font-size: 10px;
+    float: right;
+}
+
+p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.acoes-post{
+    padding: 10px 5px 5px 5px;
+}
+
+.acoes-post a{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 10px;
+}
+

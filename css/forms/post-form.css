@@ -1,0 +1,51 @@
+.post-form:active,
+.post-form:hover {
+    width: 100%;
+    padding: 20px 15px 20px 15px;
+    margin: 20px 0px 20px 0px;
+    border: none;
+    border-radius: 3px;
+    transition: all 500ms;
+}
+.botao-camera {
+    padding: 8px 5px 8px 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #003D5E;
+    color: white;
+    font-size: 10px;
+}
+.botao-post {
+    padding: 8px 30px 8px 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #002639;
+    color: white;
+    font-size: 10px;
+}
+@media (min-width:700px) {
+    .post-form {
+        width: 100%;
+        padding: 15px 15px 15px 15px;
+        margin: 20px 0px 20px 0px;
+        border: none;
+        border-radius: 3px;
+        transition: all 500ms;
+    }
+}
+@media (max-width:700px) {
+    .post-form {
+        width: 90%;
+        padding: 15px 15px 15px 15px;
+        margin: 20px;
+        border: none;
+        border-radius: 3px;
+        transition: all 500ms;
+    }
+    .botao-post {
+        margin-right: 10px;
+    }
+    .botao-camera{
+        margin-left: 10px;
+    }
+}

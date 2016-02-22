@@ -1,0 +1,10 @@
+.navegacao {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+nav > div > a {
+    margin-left: 20px;
+    color: #003D5E;
+}
