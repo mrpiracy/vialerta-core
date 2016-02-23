@@ -1,7 +1,7 @@
 # Core do Vialerta
 O Core do sistema é que mantem o projeto do Vialerta funcionando, através de colaboração entre usuários e desenvolvedores
 
-##O que é Vialerta?
+##O que é?
 Vialerta é um sistema onde você pode postar os problemas da sua cidade, e divulga-los em uma forma rápida e prática em qualquer lugar. O sistema notificar os orgãos competentes, além de divulgar em várias redes sociais.
 
 
