@@ -22,7 +22,9 @@ Junte-se a nós e ajude a desenvolver esta ferramenta para melhoria das cidades
 
 
 ##Licensa
-![GPL](http://www.gnu.org/graphics/gplv3-88x31.png)  Equipe do Vialerta - 2012 - 2016
+Direitos Autorais - Equipe do Vialerta - 2012 - 2016
+
+![GPL](http://www.gnu.org/graphics/gplv3-88x31.png) 
 
 ![Feito com Amor](http://forthebadge.com/images/badges/built-with-love.svg)
 ![Usa HTML5](http://forthebadge.com/images/badges/uses-html.svg)
