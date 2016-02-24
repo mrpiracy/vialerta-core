@@ -1,3 +1,5 @@
+
+![Vialerta](https://vialerta.cc/images/vialerta-logo.svg) 
 # Core do Vialerta
 O Core do sistema é que mantem o projeto do Vialerta funcionando, através de colaboração entre usuários e desenvolvedores
 
