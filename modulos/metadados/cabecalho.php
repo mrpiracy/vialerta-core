@@ -39,6 +39,7 @@
     <head>
 
         <title>Vialerta</title>
+         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="css/geral/base.css" type="text/css">
         <link rel="stylesheet" href="css/navegacao/nav.css" type="text/css">

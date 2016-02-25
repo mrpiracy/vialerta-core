@@ -34,10 +34,12 @@
 ?>
 
 <nav class="navegacao">
-    <div class="container">
-        <div>
-            <a href="">Timeline</a>
-            <a href="">Filtros</a>
+    <div class="container ">
+        <img class="logo-principal" src="img/fixo/vialerta_logo.svg">
+        <div class="float-direita menu">
+            <a class="item-menu" href="">Dashboard</a>
+            <a class="item-menu" href="">Timeline</a>
+            <a class="item-menu" href="">Filtros</a>
         </div>
     </div>
 </nav>

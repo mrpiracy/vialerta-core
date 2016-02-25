@@ -1,7 +1,7 @@
 .post-form:active,
 .post-form:hover {
     width: 100%;
-    padding: 20px 15px 20px 15px;
+    padding: 25px 15px 25px 15px;
     margin: 20px 0px 20px 0px;
     border: none;
     border-radius: 3px;
@@ -10,6 +10,9 @@
 .botao-camera {
     padding: 8px 5px 8px 5px;
     border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
     border-radius: 3px;
     background-color: #003D5E;
     color: white;
@@ -19,6 +22,9 @@
     padding: 8px 30px 8px 30px;
     border: none;
     border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
     background-color: #002639;
     color: white;
     font-size: 10px;
@@ -45,7 +51,7 @@
     .botao-post {
         margin-right: 10px;
     }
-    .botao-camera{
+    .botao-camera {
         margin-left: 10px;
     }
 }

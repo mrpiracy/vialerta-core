@@ -4,7 +4,26 @@
     padding-bottom: 15px;
     width: 100%;
 }
-nav > div > a {
+.item-menu {
     margin-left: 20px;
-    color: #003D5E;
+    color: #444;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+@media (min-width:700px) {
+    .logo-principal {
+        max-width: 100px;
+    }
+}
+
+@media (max-width:700px) {
+    .logo-principal {
+        max-width: 100px;
+        margin-left:10px;
+    }
+    .menu{
+        margin-right: 10px;
+    }
 }

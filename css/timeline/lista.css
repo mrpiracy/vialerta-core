@@ -4,6 +4,7 @@
 .avatar-usuario {
     float: left;
     max-width: 24px;
+    border-radius: 50%;
 }
 .nome-usuario {
     font-size: 12px;
@@ -31,3 +32,9 @@ p{
     font-family: 10px;
 }
 
+.acoes-post  a{
+    font-size: 12px;
+    color: #444;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
