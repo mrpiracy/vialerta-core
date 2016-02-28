@@ -1,4 +1,5 @@
 <?php
+
 /*
                       ___                  __               
          __          /\_ \                /\ \__            
@@ -31,29 +32,11 @@
     com este programa. Se não, veja <http://www.gnu.org/licenses/>.
 
 */
+
+
+include("modulos/metadados/cabecalho.php");
+include("modulos/navegacao/nav.php");
+include("modulos/post/post-form.php");
+include("modulos/rodape/rodape.php");
+
 ?>
-
-
- 
-<!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Vialerta</title>
-        <meta name="generator" content="Vialerta CMS">
-        <meta name="application-name" content="Vialerta">
-        <meta name="theme-color" content="#003D5E">
-
-        <!--         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-        <link rel="stylesheet" href="css/geral/base.css" type="text/css">
-        <link rel="stylesheet" href="css/navegacao/nav.css" type="text/css">
-        <link rel="stylesheet" href="css/forms/post-form.css" type="text/css">
-        <link rel="stylesheet" href="css/timeline/lista.css" type="text/css">
-        <link rel="stylesheet" href="css/rodape/rodape.css" type="text/css">
-    </head>
-
-
-    <body>

@@ -33,8 +33,23 @@
 */
 ?>
 
-<footer>Vialerta</footer>
-
-</body>
-
-</html>
+    <footer>
+        <div class="container copyright">
+            <div class="width-1-3 float-esquerda esquerda"><img width="100" src="img/fixo/vialerta_logo_branco.svg"></div>
+            <div class="width-1-3 float-esquerda esquerda">
+                <ul class="navegacao-rodape esconder-movel">
+                    <li><a href="">Dashboard</a></li>
+                    <li><a href="">Timeline</a></li>
+                    <li><a href="">Filtros</a></li>
+                </ul>
+            </div>
+            <div class="width-1-3 float-esquerda itens-rodape direita esconder-movel">
+                <nav class="branco">
+                    <a href="">facebook</a>
+                </nav>
+            </div>
+            
+        </div>
+    </footer>
+    </body>
+    </html>

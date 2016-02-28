@@ -32,14 +32,25 @@
 
 */
 ?>
+    <div class="conteudo container arredondado  sombra fundo-branco">
+        <h1>
+            Criar Alerta
+        </h1>
+        <form id="criar-alerta" name="criar-alerta" class="formulario padding-topo">
+            <input id="nome-problema" name="nome-problema" type="text" class="width-1-2" placeholder="Nome do problema">
+            <select class="width-1-3 arrendondado float-direita">
+                <option>Selecione o Categoria</option>
+                <option value="1">problema1</option>
+                <option value="2">problema2</option>
+            </select>
+            <br>
+            <input id="local-problema" name="local-problema" type="text" class="width-1-2" placeholder="Local do problema">
+            <br>
+            <textarea id="descricao-problema" placeholder="Descrição do Problema" name="descricao-problemas" class="width-1-1"></textarea>
+            <br>
+            <input type="file" id="foto-alerta" class="width-1-2 espaco-upload" name="foto-alerta">
 
-<form class="container">
-    <div class="container">
-        <input class="post-form" rows="3" placeholder="O que aconteceu?">
-        <div class="float-esquerda">
-            <button class="botao-camera ">foto</button>
-            <button class="botao-camera">video</button>
-        </div>
-        <button class="botao-post float-direita">Alertar</button>
+            <button class="botao sombra float-direita margem-topo">Criar Alerta</button>
+        </form>
+
     </div>
-</form>

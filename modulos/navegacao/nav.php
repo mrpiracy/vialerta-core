@@ -33,9 +33,9 @@
 */
 ?>
 
-<nav class="navegacao">
+<nav class="navegacao fundo-cor-principal sombra">
     <div class="container ">
-        <img class="logo-principal" src="img/fixo/vialerta_logo.svg">
+        <img class="logo-principal" src="img/fixo/vialerta_logo_branco.svg">
         <div class="float-direita menu">
             <a class="item-menu" href="">Dashboard</a>
             <a class="item-menu" href="">Timeline</a>
