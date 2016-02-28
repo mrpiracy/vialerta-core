@@ -36,7 +36,7 @@
 
 include("modulos/metadados/cabecalho.php");
 include("modulos/navegacao/nav.php");
-
+include("modulos/dashboard/painel.php");
 include("modulos/rodape/rodape.php");
 
 ?>

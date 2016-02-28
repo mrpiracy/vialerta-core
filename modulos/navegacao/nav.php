@@ -39,7 +39,7 @@
         <div class="float-direita menu">
             <a class="item-menu" href="">Dashboard</a>
             <a class="item-menu" href="">Timeline</a>
-            <a class="item-menu" href="">Filtros</a>
+            <a class="item-menu" href="alertar.php">Alertar</a>
         </div>
     </div>
 </nav>
