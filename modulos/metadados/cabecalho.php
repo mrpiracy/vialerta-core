@@ -34,20 +34,22 @@
 ?>
 
 
- 
-<!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+
+    <!DOCTYPE html>
+    <html lang="pt-br" dir="ltr">
 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Vialerta</title>
         <meta name="generator" content="Vialerta CMS">
+        <link rel="shortcut icon" href="favicon_vialerta.ico" type="image/x-icon">
         <meta name="application-name" content="Vialerta">
         <meta name="theme-color" content="#003D5E">
-
-        <!--         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="css/geral/base.css" type="text/css">
         <link rel="stylesheet" href="css/navegacao/nav.css" type="text/css">
         <link rel="stylesheet" href="css/forms/post-form.css" type="text/css">
@@ -57,3 +59,5 @@
 
 
     <body>
+
+        

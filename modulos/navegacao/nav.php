@@ -35,9 +35,9 @@
 
 <nav class="navegacao fundo-cor-principal sombra">
     <div class="container ">
-        <img class="logo-principal" src="img/fixo/vialerta_logo_branco.svg">
+        <a href="index.php"><img class="logo-principal" src="img/fixo/vialerta_logo_branco.svg"></a>
         <div class="float-direita menu">
-            <a class="item-menu" href="">Dashboard</a>
+            <a class="item-menu" href="index.php">Dashboard</a>
             <a class="item-menu" href="">Timeline</a>
             <a class="item-menu" href="alertar.php">Alertar</a>
         </div>
