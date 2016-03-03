@@ -19,7 +19,7 @@ h3,
 h4 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: #444;
+    color: #767777;
 }
 .container {
     max-width: 900px;
@@ -228,12 +228,12 @@ select {
     border-radius: 3px;
     text-transform: uppercase;
     font-weight: bold;
-    background-color: #003d5e;
+ 
     color: white;
 }
 .fundo-cor-principal {
-    background-color: #003d5e;
+    background-color: #004266;
 }
 .cor-principal {
-    color: #003d5e;
+    color: #035978;
 }

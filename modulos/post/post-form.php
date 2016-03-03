@@ -50,7 +50,7 @@
             <br>
             <input type="file" id="foto-alerta" class="width-1-2 espaco-upload" name="foto-alerta">
 
-            <button class="botao sombra float-direita margem-topo">Criar Alerta</button>
+            <button class="botao fundo-cor-principal sombra float-direita margem-topo">Criar Alerta</button>
         </form>
 
     </div>
