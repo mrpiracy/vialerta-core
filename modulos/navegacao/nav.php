@@ -33,13 +33,16 @@
 */
 ?>
 
-<nav class="navegacao fundo-cor-principal sombra">
-    <div class="container ">
-        <a href="index.php"><img class="logo-principal" src="img/fixo/vialerta_logo_branco.svg"></a>
-        <div class="float-direita menu">
-            <a class="item-menu" href="index.php">Dashboard</a>
-            <a class="item-menu" href="">Timeline</a>
-            <a class="item-menu" href="alertar.php">Alertar</a>
+    <nav class="navegacao fundo-cor-principal sombra">
+        <div class="container ">
+            <a href="index.php"><img class="logo-principal" src="img/fixo/vialerta_logo_branco.svg"></a>
+            <div class="float-direita menu">
+                <a class="item-menu" href="index.php">Dashboard</a>
+                <a class="item-menu" href="">Timeline</a>
+                <a class="item-menu" style="margin-right:0px;" href="alertar.php">Alertar</a>
+                 <a class="item-menu" href="alertar.php"> <i class="material-icons icone-menu"> account_circle </i> </a>
+                <a class="item-menu" href="alertar.php"> <i class="material-icons icone-menu"> search </i> </a>
+               
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>

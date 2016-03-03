@@ -151,13 +151,27 @@ hr {
     /* Support for IE. */
     font-feature-settings: 'liga';
 }
+.icone-menu {
+    font-size: 24px;
+    line-height:20px;;
+    padding: 0px 0px 0px 20px;
+float: right;
+
+}
+
 .f18px {
     font-size: 18px;
-    line-height: 18px
+    line-height:16px
 }
+
+.f16px {
+    font-size: 16px;
+    line-height: 14px
+}
+
 .f14px {
     font-size: 14px;
-    line-height: 14px;
+    line-height: 12px;
 }
 .f12px {
     font-size: 12px;
