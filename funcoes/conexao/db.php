@@ -1,4 +1,5 @@
 <?php
+
 /*
                       ___                  __               
          __          /\_ \                /\ \__            
@@ -31,26 +32,16 @@
     com este programa. Se não, veja <http://www.gnu.org/licenses/>.
 
 */
-?>
-    <div class="conteudo container arredondado  sombra fundo-branco">
-        <h1>
-            Criar Alerta
-        </h1>
-        <form id="criar-alerta" name="criar-alerta" class="formulario padding-topo">
-            <input id="nome-problema" name="nome-problema" type="text" class="width-1-2" placeholder="Nome do problema" required>
-            <select id="categoria-problema" name="categoria-problema" class="width-1-3 arrendondado float-direita" required>
-                <option>Selecione o Categoria</option>
-                <option value="1">problema1</option>
-                <option value="2">problema2</option>
-            </select>
-            <br>
-            <input id="local-problema" name="local-problema" type="text" class="width-1-2" placeholder="Local do problema" required>
-            <br>
-            <textarea id="descricao-problema" placeholder="Descrição do Problema" name="descricao-problemas" class="width-1-1" required></textarea>
-            <br>
-            <input type="file" id="foto-alerta" class="width-1-2 espaco-upload" name="foto-alerta" required>
 
-            <button class="botao fundo-cor-principal sombra float-direita margem-topo">Criar Alerta</button>
-        </form>
+$servidor = "localhost";
+$usuario = "usuario-do-banco";
+$senha = "senha-do-banco";
 
-    </div>
+// Cria uma conexão
+$conexao = new mysqli($servidor, $usuario, $senha);
+
+// Checa a conexão
+if ($conexao->connect_error) {
+    die("Conexão falhou: " . $conexao->connect_error); 
+
+$conexao->close();    
