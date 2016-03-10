@@ -34,14 +34,17 @@
 */
 
 $servidor = "localhost";
-$usuario = "usuario-do-banco";
-$senha = "senha-do-banco";
+$usuario = "root";
+$senha = "h4ck3rik";
 
 // Cria uma conexão
-$conexao = new mysqli($servidor, $usuario, $senha);
+$conexao = new mysqli($servidor, $usuario, $senha ,"vialerta");
 
 // Checa a conexão
 if ($conexao->connect_error) {
     die("Conexão falhou: " . $conexao->connect_error); 
 
-$conexao->close();    
+}
+    
+    
+    ?>

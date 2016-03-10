@@ -36,7 +36,7 @@
         <h1>
             Criar Alerta
         </h1>
-        <form id="criar-alerta" name="criar-alerta" class="formulario padding-topo">
+        <form id="criar-alerta" name="criar-alerta" class="formulario padding-topo" method="POST" action="funcoes/inserir/inserir-alerta.php">
             <input id="nome-problema" name="nome-problema" type="text" class="width-1-2" placeholder="Nome do problema" required>
             <select id="categoria-problema" name="categoria-problema" class="width-1-3 arrendondado float-direita" required>
                 <option>Selecione o Categoria</option>
@@ -46,9 +46,9 @@
             <br>
             <input id="local-problema" name="local-problema" type="text" class="width-1-2" placeholder="Local do problema" required>
             <br>
-            <textarea id="descricao-problema" placeholder="Descrição do Problema" name="descricao-problemas" class="width-1-1" required></textarea>
+            <textarea id="descricao-problema" placeholder="Descrição do Problema" name="descricao-problema" class="width-1-1" required></textarea>
             <br>
-            <input type="file" id="foto-alerta" class="width-1-2 espaco-upload" name="foto-alerta" required>
+            <input type="file" id="foto-problema" class="width-1-2 espaco-upload" name="foto-problema" required>
 
             <button class="botao fundo-cor-principal sombra float-direita margem-topo">Criar Alerta</button>
         </form>
